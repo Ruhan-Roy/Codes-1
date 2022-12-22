@@ -1,0 +1,1 @@
+LEAP YEAR DETERMINERyear = 1while year != 0:  year = int(input("Pls enter the year(press 0 to quit):"))  if year % 400 == 0 or (year%4==0 and year%100!=0):    print("This is a leap year")  else:    print("This is not a leap year")

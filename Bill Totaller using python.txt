@@ -1,0 +1,1 @@
+BILL TOTALLERprint("Bill Totaller\n\n")print("Please enter the amount of each bill. If you want to quit, enter 0:")num = float(input("Enter first bill amount:"))amount = numwhile num!=0:  print("The total amount of bill so far is", amount)  num = float(input("\nNext bill amount is: \n"))  amount = amount + numprint("The total amount on your bill is ", amount)

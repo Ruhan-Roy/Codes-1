@@ -1,0 +1,1 @@
+MULTIPLICATION TABLE GENERATORdef mtable(a):  print("multiplication table of", str(a), '\n' )  for i in range(1, 11):    print(str(a), "X", str(i), "=", str(a*i))mtable(15)

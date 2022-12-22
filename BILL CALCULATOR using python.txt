@@ -1,0 +1,1 @@
+BILL CALCULATORx = input("What is the itme you want to buy:")y = int(input("What is the price of the item:"))z = int(input("What is the quantity you want to buy:"))print("Here is your bill:")print(x)print("Cost of 1:", y)cost = (y * z)print("Cost of", z,"=", cost)gst = (18/100 * cost)print("18% of gst = ", gst)print("Total cost = ", gst + cost)
