@@ -1,2 +1,2 @@
-# 2022
-All the codes written in or before 2022
+# HIGH SCHOOL
+All the codes written during high school.
